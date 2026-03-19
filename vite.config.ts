@@ -6,7 +6,9 @@ const manifest : Partial<ManifestOptions> | false = {"theme_color":"#383838","ba
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(),
+  base: '/pwa-experiment/',
+  plugins: [
+    react(),
     VitePWA(
     {
       registerType: 'autoUpdate',
