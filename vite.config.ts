@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import {VitePWA, type ManifestOptions} from "vite-plugin-pwa";
 
-const manifest : Partial<ManifestOptions> | false = {"theme_color":"#383838","background_color":"#ffffff","icons":[{"purpose":"maskable","sizes":"512x512","src":"icon512_maskable.png","type":"image/png"},{"purpose":"any","sizes":"512x512","src":"icon512_rounded.png","type":"image/png"}],"orientation":"any","display":"standalone","lang":"en","name":"TestApp","short_name":"TA"}
+const manifest : Partial<ManifestOptions> | false = {"theme_color":"#383838","background_color":"#16171D","icons":[{"purpose":"maskable","sizes":"512x512","src":"icon512_maskable.png","type":"image/png"},{"purpose":"any","sizes":"512x512","src":"icon512_rounded.png","type":"image/png"}],"orientation":"any","display":"standalone","lang":"en","name":"TestApp","short_name":"TA"}
 
 // https://vite.dev/config/
 export default defineConfig({
